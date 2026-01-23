@@ -8,13 +8,12 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "TB_USERS")
-public class userModel implements Serializable {
+public class UserModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private String name;
-    private String cpf;
     private String email;
 
 
